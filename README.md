@@ -1,82 +1,135 @@
-<!-- Шапка с волной -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:00d4ff&height=200&section=header&text=Cyber2077&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%E2%80%A2%20React%20%E2%80%A2%20TypeScript%20%E2%80%A2%20Three.js&descAlignY=58&descSize=18" width="100%" />
-</p>
+<!--
+  Все картинки в assets/ нарисованы кодом (scripts/), статистика и змейка
+  обновляются GitHub Actions в ветке `output`. Пересобрать ассеты: npm run build
+-->
 
-<!-- Печатающийся текст -->
-<p align="center">
-  <a href="https://github.com/Cyber07200">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&width=600&lines=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!+%D0%AF+%D0%9C%D0%B0%D0%BA%D1%81+%F0%9F%91%8B;Frontend+%2F+Creative+Developer;%D0%94%D0%B5%D0%BB%D0%B0%D1%8E+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D1%8B%2C+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5+%D0%B6%D0%B8%D0%B2%D1%83%D1%82;React+%E2%80%A2+TypeScript+%E2%80%A2+Three.js+%E2%80%A2+GSAP" alt="Typing SVG" />
-  </a>
-</p>
+<a href="https://github.com/Cyber07200">
+  <img src="assets/hero.svg" width="100%" alt="Cyber2077 — Frontend & Creative Developer, UI/UX Designer. Никнейм печатается десятью разными шрифтами." />
+</a>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Cyber07200&label=%D0%9F%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D1%8B%20%D0%BF%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D1%8F&color=00d4ff&style=flat-square" alt="views" />
-  <img src="https://img.shields.io/github/followers/Cyber07200?label=%D0%9F%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%87%D0%B8%D0%BA%D0%B8&style=flat-square&color=302b63" alt="followers" />
+  <img src="https://komarev.com/ghpvc/?username=Cyber07200&label=PROFILE%20VIEWS&color=00E5FF&style=flat-square" alt="Просмотры профиля" />
+  <img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-D7FF3A?style=flat-square&labelColor=12131C" alt="Открыт к предложениям" />
+  <img src="https://img.shields.io/badge/FOCUS-UI%20%C2%B7%20MOTION%20%C2%B7%203D-FF2E88?style=flat-square&labelColor=12131C" alt="UI, моушен, 3D" />
 </p>
 
----
+<br />
 
-### 🧑‍💻 Обо мне
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/01-dark.svg" />
+  <img src="assets/sections/01-light.svg" width="100%" alt="01 — Обо мне" />
+</picture>
 
-- 🔭 Делаю веб-приложения с анимациями, 3D и вниманием к деталям
-- 🛠️ Сейчас развиваю **[Instrumentum](https://github.com/Cyber07200/instrumentum)**, хаб инструментов для разработчиков прямо в браузере
-- 🌱 Изучаю WebGL, шейдеры и архитектуру фронтенда
-- 🤝 Открыт к open-source и интересным проектам
-- ⚡ Люблю, когда интерфейс не просто работает, а *ощущается*
+<img src="assets/about.svg" width="100%" alt="Проектирую и программирую интерфейсы, которые ощущаются. Процесс: Figma → токены → React → моушен. 4D-тессеракт в DIMENSION, 76 автотестов в POCKET FILM, 14+ инструментов в INSTRUMENTUM." />
 
-### 🧰 Стек
+#### Чем могу быть полезен
+
+- 🎨 **UI/UX-дизайн** — макеты и прототипы в Figma, дизайн-системы и токены, продуманная типографика
+- ⚛️ **Frontend** — React + TypeScript, чистая архитектура компонентов, быстрый и доступный интерфейс
+- 🌌 **Creative / 3D** — Three.js и React Three Fiber, GSAP ScrollTrigger, шейдеры, сторителлинг на скролле
+- 📱 **Mobile** — React Native + Expo, local-first, Skia, перенос веб-продукта на телефон по Figma
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/02-dark.svg" />
+  <img src="assets/sections/02-light.svg" width="100%" alt="02 — Избранные проекты" />
+</picture>
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind,vite,threejs,cs,dotnet,nodejs,git,github,vscode,figma&perline=8" />
-  </a>
+  <a href="https://github.com/Cyber07200/dimension"><img src="assets/projects/dimension.svg" width="49%" alt="DIMENSION — интерактивный музей измерений: от точки до тессеракта" /></a>
+  <a href="https://github.com/Cyber07200/NOVA-Photo"><img src="assets/projects/nova-photo.svg" width="49%" alt="NOVA PHOTO — магазин фототехники как фильм на скролле" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Cyber07200/pocket-film"><img src="assets/projects/pocket-film.svg" width="49%" alt="POCKET FILM — аналоговая камера для iOS и Android" /></a>
+  <a href="https://github.com/Cyber07200/instrumentum"><img src="assets/projects/instrumentum.svg" width="49%" alt="INSTRUMENTUM — хаб из 14+ инструментов для разработчика" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Cyber07200/Avora"><img src="assets/projects/avora.svg" width="49%" alt="AVORALAB — сайт студии из Figma пиксель в пиксель" /></a>
+  <a href="https://github.com/Cyber07200/Planet-kid-mobile"><img src="assets/projects/planet-kids.svg" width="49%" alt="Дети на планете — мобильное приложение детского центра" /></a>
 </p>
 
-### 🚀 Проекты
+<details>
+<summary><b>Ещё проекты</b></summary>
+<br />
 
-| Проект | Описание | Стек |
-|---|---|---|
-| 🧪 [**instrumentum**](https://github.com/Cyber07200/instrumentum) | Хаб из 14+ инструментов: умное поле ввода само распознаёт JSON, JWT, URL, цвета, время, Base64 | JavaScript |
-| 🌌 [**tools-hub**](https://github.com/Cyber07200/tools-hub) | Интерактивный 3D-сайт: Three.js, GSAP ScrollTrigger, смена тем | React · TS · Three.js |
+| Проект | О чём | Стек |
+| --- | --- | --- |
+| 🌌 [**Digital Universe**](https://github.com/Cyber07200/tools-hub) | Интерактивный 3D-сайт: 4 темы, свой smooth-scroll, рабочий терминал, code-splitting | React 19 · TS · R3F · GSAP |
+| 🛒 [**frontend-checkout-challenge**](https://github.com/Cyber07200/frontend-checkout-challenge) | Тестовое: каталог, корзина, оформление заказа и оплата тестовой картой | TypeScript |
+| 🤝 [**valantur_hub_normal**](https://github.com/Cyber07200/valantur_hub_normal) | Платформа для поиска волонтёрской деятельности | JavaScript · PostgreSQL · Kotlin |
 | ✅ [**task-manager**](https://github.com/Cyber07200/task-manager) | Управление задачами с анимациями и подзадачами | React |
-| 🤝 [**valantur_hub_normal**](https://github.com/Cyber07200/valantur_hub_normal) | Платформа для поиска волонтёрской деятельности | JavaScript |
 
-### 📊 Статистика
+</details>
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Cyber07200&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&locale=ru" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cyber07200&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&locale=ru" />
-</p>
+<br />
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Cyber07200&theme=tokyonight&hide_border=true&locale=ru" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/03-dark.svg" />
+  <img src="assets/sections/03-light.svg" width="100%" alt="03 — Стек и инструменты" />
+</picture>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Cyber07200&theme=tokyo-night&hide_border=true&area=true" width="100%" />
+  <b>Дизайн</b><br /><br />
+  <img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="Figma" />
+</p>
+<p align="center">
+  <b>Frontend и creative</b><br /><br />
+  <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind,vite,threejs&theme=dark" alt="React, TypeScript, JavaScript, HTML, CSS, Tailwind, Vite, Three.js" />
+</p>
+<p align="center">
+  <b>Бэкенд, данные и прочее</b><br /><br />
+  <img src="https://skillicons.dev/icons?i=nodejs,supabase,postgres,cs,dotnet,kotlin,python,git,github,vscode&theme=dark" alt="Node.js, Supabase, PostgreSQL, C#, .NET, Kotlin, Python, Git, GitHub, VS Code" />
 </p>
 
-### 🐍 Змейка съедает мои коммиты
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/04-dark.svg" />
+  <img src="assets/sections/04-light.svg" width="100%" alt="04 — Статистика" />
+</picture>
+
+<img src="https://raw.githubusercontent.com/Cyber07200/Cyber07200/output/stats.svg" width="100%" alt="Статистика GitHub: контрибуции, активные дни, серии, языки" />
+<img src="https://raw.githubusercontent.com/Cyber07200/Cyber07200/output/activity.svg" width="100%" alt="Контрибуции по месяцам за последний год" />
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/05-dark.svg" />
+  <img src="assets/sections/05-light.svg" width="100%" alt="05 — Змейка ест коммиты" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cyber07200/Cyber07200/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Cyber07200/Cyber07200/output/snake-light.svg" width="100%" alt="Змейка съедает клетки календаря контрибуций" />
+</picture>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/06-dark.svg" />
+  <img src="assets/sections/06-light.svg" width="100%" alt="06 — Связь" />
+</picture>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cyber07200/Cyber07200/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cyber07200/Cyber07200/output/github-snake.svg" />
-    <img alt="snake" src="https://raw.githubusercontent.com/Cyber07200/Cyber07200/output/github-snake-dark.svg" />
-  </picture>
+  <a href="https://t.me/MaimysAbrosimv"><img src="assets/buttons/telegram.svg" width="32%" alt="Telegram: @MaimysAbrosimv" /></a>
+  <a href="mailto:abrosimov20062022@gmail.com"><img src="assets/buttons/email.svg" width="32%" alt="Email: abrosimov20062022@gmail.com" /></a>
+  <a href="https://github.com/Cyber07200"><img src="assets/buttons/github.svg" width="32%" alt="GitHub: Cyber07200" /></a>
 </p>
 
-### 📫 Связь
+<details>
+<summary><b>🛠 Как устроен этот профиль</b></summary>
+<br />
 
-<p align="center">
-  <a href="https://github.com/Cyber07200"><img src="https://img.shields.io/badge/GitHub-Cyber07200-181717?style=for-the-badge&logo=github" /></a>
-  <a href="https://t.me/@MaimysAbrosimv"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-  <a href="mailto:abrosimov20062022@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  -->
-</p>
+Здесь нет готовых шаблонов, всё нарисовано кодом:
 
-<!-- Подвал с волной -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:302b63,100:0f0c29&height=120&section=footer" width="100%" />
-</p>
+- **Hero, карточки и заголовки** генерирует Node-скрипт ([`scripts/`](scripts)). Текст переведён в векторные контуры через `opentype.js`, поэтому 10 шрифтов в шапке выглядят одинаково на любом устройстве.
+- **Анимации** сделаны на чистом CSS и SMIL внутри SVG. Тессеракт вращается по настоящей 4D-матрице (плоскости XW и YZ), кадры посчитаны заранее. Ради `prefers-reduced-motion` анимации отключаются.
+- **Статистику и змейку** GitHub Actions пересобирает каждые 12 часов из GitHub GraphQL API, без сторонних сервисов, которые могут упасть.
+- **Заголовки секций** подстраиваются под светлую и тёмную тему GitHub.
+
+</details>
+
+<br />
+
+<img src="assets/footer.svg" width="100%" alt="Давайте сделаем интерфейс, который запомнят" />

@@ -1,0 +1,13 @@
+{
+  "name": "cyber07200-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-assets.mjs",
+    "stats": "node scripts/build-stats.mjs",
+    "preview": "node scripts/build-assets.mjs && node scripts/build-stats.mjs --demo"
+  },
+  "dependencies": {
+    "opentype.js": "^1.3.4"
+  }
+}
